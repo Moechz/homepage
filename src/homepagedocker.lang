@@ -1,0 +1,195 @@
+# ===========================================================================
+# Multilingual file for the TOS 7 Docker application "homepagedocker".
+# File name MUST be: <appid>.lang.  23-language superset (14 required by TOS).
+# The App Center picks the text matching the user's device language;
+# untranslated nodes fall back to English, which the official guide allows.
+# Fields: name (app title), auth (upstream author), descript (up to 512
+# chars), release_note, important (up to 512 chars).
+# Translations come from tosapp.json "translations"; run
+#   tosdocker lang <app>          to re-render this file
+#   tosdocker translate <app>     to see what still needs translating
+# ===========================================================================
+[en-us]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[zh-cn]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage 是给你的网络做的现代仪表盘：把服务按分类排成入口，配 Docker 容器、磁盘、CPU/内存的实时小组件，还有书签、天气与搜索。布局就是应用数据目录里的几个 YAML 文件，改起来方便、也容易备份。"
+release_note = "1. 首个版本：基于 Docker Hub 的 Homepage 2.8.0，以非 root 容器运行。服务仪表盘，带 Docker/磁盘/CPU 小组件；YAML 配置保存在应用数据目录。"
+important    = "需要 DockerEngine（缺失时应用中心会自动安装）。首次启动会把示例配置（services.yaml、widgets.yaml、bookmarks.yaml）写到 DockerAppData/homepagedocker/config，编辑后重启应用即可。本包设了 HOMEPAGE_ALLOWED_HOSTS=*，让仪表盘能在 NAS IP 和任意反向代理域名下访问——请只在内网使用，或加一层带鉴权的代理。界面为纯 HTTP。"
+
+[zh-hk]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage 是給你的網路做的現代儀表盤：把服務按分類排成入口，配 Docker 容器、磁碟、CPU/記憶體的即時小元件，還有書籤、天氣與搜尋。版面就是應用資料目錄裡的幾個 YAML 檔案，改起來方便、也容易備份。"
+release_note = "1. 首個版本：基於 Docker Hub 的 Homepage 2.8.0，以非 root 容器運行。服務儀表盤，帶 Docker/磁碟/CPU 小元件；YAML 設定保存在應用資料目錄。"
+important    = "需要 DockerEngine（缺少時應用中心會自動安裝）。首次啟動會把範例設定（services.yaml、widgets.yaml、bookmarks.yaml）寫到 DockerAppData/homepagedocker/config，編輯後重啟應用即可。本包設了 HOMEPAGE_ALLOWED_HOSTS=*，讓儀表盤能在 NAS IP 和任意反向代理網域下存取——請只在內網使用，或加一層帶鑑權的代理。介面為純 HTTP。"
+
+[fr-fr]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[de-de]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[it-it]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[es-es]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[hu-hu]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[ja-jp]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[ko-kr]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[pl-pl]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[ru-ru]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[tr-tr]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[pt-pt]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[ar-sa]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[cs-cz]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[he-il]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[id-id]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[nb-no]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[nl-nl]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[sv-se]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[th-th]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
+[vi-vn]
+name         = "Homepage"
+auth         = "gethomepage"
+version      = "@@VERSION@@"
+descript     = "Homepage is a modern dashboard for everything on your network: service links grouped by category, live widgets for Docker containers, disks, CPU and memory, bookmarks, weather and search. The layout is a set of YAML files in the application data folder, so it is easy to edit and back up."
+release_note = "1. First release: Homepage 2.8.0 from Docker Hub as a non-root container. Service dashboard with Docker/disk/CPU widgets; YAML configuration in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). On first start the image writes example configuration files (services.yaml, widgets.yaml, bookmarks.yaml) to DockerAppData/homepagedocker/config; edit them and restart. The package sets HOMEPAGE_ALLOWED_HOSTS=* so the dashboard answers on the NAS IP and any reverse-proxy host name - keep it on the LAN or put an authenticating proxy in front. Plain HTTP."
+
